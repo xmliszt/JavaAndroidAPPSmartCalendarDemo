@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "817676843799",
+    "firebase_url": "https://kronos-final.firebaseio.com",
+    "project_id": "kronos-final",
+    "storage_bucket": "kronos-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817676843799:android:54df59206a1050b2525552",
+        "android_client_info": {
+          "package_name": "com.kronos.sutd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817676843799-34vph6assq3ia88bei7ara83vdi61ei1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZKBU2UOgJDaHbiI5ahZdN15Pn5dRn1ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817676843799-34vph6assq3ia88bei7ara83vdi61ei1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

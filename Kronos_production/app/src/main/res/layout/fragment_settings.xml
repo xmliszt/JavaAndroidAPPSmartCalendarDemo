@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/settings_profile_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_person_240dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_marginHorizontal="20pt"
+                android:layout_marginBottom="10pt"/>
+
+            <TextView
+                android:id="@+id/settings_login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10pt"
+                android:text="Email address"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/settings_email_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10pt"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="user@email.com"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/settings_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10pt"
+                android:text="Password"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/settings_pw_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10pt"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="password"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/settings_update_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10pt"
+                android:text="Update Preferences"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
